@@ -11,3 +11,7 @@ urlpatterns =[
 		path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
 		path('<int:question_id>/vote/', views.vote, name='vote'),
 ]
+
+"""Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')"""
